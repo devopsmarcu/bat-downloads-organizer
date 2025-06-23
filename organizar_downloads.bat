@@ -1,8 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Caminho base
-set "BASEDIR=C:\Users\marcu"
+:: Caminho base dinâmico (usuário atual)
+set "BASEDIR=%USERPROFILE%"
 set "DOWNLOADS=%BASEDIR%\Downloads"
 
 :: Pastas padrão
